@@ -7,11 +7,11 @@ function Navbar() {
     <>
       <nav  className='menu'>
         <ul className='list-menu'>
-          <li className='list-menu-item'><a href="">HOME</a></li>
-          <li className='list-menu-item'><a href="">SOBRE</a></li>
-          <li className='list-menu-item'><a href="">SKILLS</a></li>
-          <li className='list-menu-item'><a href="">PORTIFOLIO</a></li>
-          <li className='list-menu-item'><a href="">CONTATO</a></li>
+          <li className='list-menu-item'><a href="#">HOME</a><div className="list-menu-item-hover"/></li>
+          <li className='list-menu-item'><a href="#">SOBRE</a><div className="list-menu-item-hover"/></li>
+          <li className='list-menu-item'><a href="#">SKILLS</a><div className="list-menu-item-hover"/></li>
+          <li className='list-menu-item'><a href="#">PORTIFOLIO</a><div className="list-menu-item-hover"/></li>
+          <li className='list-menu-item'><a href="#">CONTATO</a><div className="list-menu-item-hover"/></li>
         </ul>
       </nav>
     </>
