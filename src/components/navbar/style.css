@@ -1,0 +1,12 @@
+.list-menu {
+  display: flex;
+}
+
+.list-menu-item a{
+  padding: 10px;
+  color: var(--color-secundary);
+}
+
+.list-menu-item:hover{
+  border-bottom: 3px solid var(--color-primary);
+}
