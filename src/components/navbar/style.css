@@ -19,7 +19,7 @@
 
 .list-menu-item a:hover + .list-menu-item-hover {
   transition: 0.5s;
-  width: 3vw;
+  width: 2vw;
   background-color: var(--color-primary);
 }
 

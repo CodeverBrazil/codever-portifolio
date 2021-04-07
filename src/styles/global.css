@@ -94,6 +94,7 @@
 
 .logo-title {
   font-size: 24pt;
+  color: var(--color-secundary)
 }
 
 /* FIM DO HEADER */
