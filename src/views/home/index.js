@@ -9,7 +9,7 @@ function Home() {
     <>
       <header className="header">
         <div className="container-blink">
-          <p className="logo-title">@Codever:~$ </p><span className="logo-title" id="blink">|</span>
+          <p className="logo-title">Codever:~$ </p><span className="logo-title" id="blink">|</span>
         </div>
         <Navbar />
       </header>
