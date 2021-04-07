@@ -1,12 +1,6 @@
-import logo from './logo.svg'
-import './App.css'
+import React from 'react'
+import Routes from './routes'
 
-function App() {
-  return (
-    <>
-      <h1>Portifóliou</h1>
-    </>
-  )
-}
+const App = () => <Routes />
 
 export default App
