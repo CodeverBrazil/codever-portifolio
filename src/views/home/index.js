@@ -1,21 +1,17 @@
 import React from "react"
 
-import Navbar from "../../components/navbar/index"
+import SkillComponent from '../../components/skills'
 
 import "../../styles/global.css"
+import './styles.css'
+
 
 function Home() {
   return (
     <>
-      <header className="header">
-        <div className="container-blink">
-          <p className="logo-title">Codever:~$ </p><span className="logo-title" id="blink">|</span>
-        </div>
-        <Navbar />
-      </header>
       <section className="container">
         <div className="image-container">
-          <img src="imagem-home.png" alt="Imagem da página home" />
+          <img src="img/illustration.png" alt="Imagem da página home" />
         </div>
         <div className="home-content">
           <p>
@@ -27,6 +23,28 @@ function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+        </div>
+      </section>
+      <section className='sobre'>
+        <div className='about-container'>
+          <h1 className="title">Sobre</h1>
+          <p className='content'>Somos uma empresa de desemvolvimento
+          de sites e sistemas recém criada. Essa será sua maior oportunidade
+          de explorar estes jovens programadores que se protituem
+          todos os dias, utilizando toda sua energia por salários baixíssimos.
+          Não perca essa oportunidade, seja um membro desse grupo que
+                    só tem a crescer!</p>
+        </div>
+      </section>
+      <section className='skills'>
+        <div className='about-container'>
+          <h1 className="title">Skills</h1>
+          <div className="skill-cards">
+            <SkillComponent image="docker" nivel="50" />
+            <SkillComponent image="javascript" nivel="50" />
+            <SkillComponent image="javascript" nivel="50" />
+            <SkillComponent image="javascript" nivel="50" />
+          </div>
         </div>
       </section>
     </>
