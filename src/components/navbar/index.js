@@ -1,17 +1,17 @@
 import React from 'react'
 
-import './style.css'
+import './styles.css'
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
       <nav  className='menu'>
         <ul className='list-menu'>
-          <li className='list-menu-item'><a href="#">HOME</a><div className="list-menu-item-hover"/></li>
-          <li className='list-menu-item'><a href="#">SOBRE</a><div className="list-menu-item-hover"/></li>
-          <li className='list-menu-item'><a href="#">SKILLS</a><div className="list-menu-item-hover"/></li>
-          <li className='list-menu-item'><a href="#">PORTIFOLIO</a><div className="list-menu-item-hover"/></li>
-          <li className='list-menu-item'><a href="#">CONTATO</a><div className="list-menu-item-hover"/></li>
+          {
+            props.items.map((item) => (
+              <li key={item} className='list-menu-item'><a href="">{item}</a><div className="list-menu-item-hover"/></li>
+            ))
+          }
         </ul>
       </nav>
     </>

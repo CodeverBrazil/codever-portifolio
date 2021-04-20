@@ -4,9 +4,39 @@
   "icons": [],
   "image": [
     {
-      "src": "imagem-home.png",
+      "src": "img/illustration.png",
       "type": "image/png",
       "sizes": "625x625"
+    },
+    {
+      "src": "img/css.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/html.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/javascript.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/nodejs.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/reactjs.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/docker.png",
+      "type": "image/png",
+      "sizes": "256x256"
     }
   ],
   "start_url": ".",
