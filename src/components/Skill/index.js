@@ -2,7 +2,7 @@ import React from 'react'
 
 import './styles.css'
 
-function Skills(props) {
+function Skill(props) {
 
   return (
     <div className="skill-container">
@@ -12,4 +12,4 @@ function Skills(props) {
   )
 }
 
-export default Skills
+export default Skill

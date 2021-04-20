@@ -1,6 +1,6 @@
 import React from "react"
 
-import SkillComponent from '../../components/skills'
+import Skill from '../../components/Skill'
 
 import "../../styles/global.css"
 import './styles.css'
@@ -40,10 +40,10 @@ function Home() {
         <div className='about-container'>
           <h1 className="title">Skills</h1>
           <div className="skill-cards">
-            <SkillComponent image="docker" nivel="50" />
-            <SkillComponent image="javascript" nivel="50" />
-            <SkillComponent image="javascript" nivel="50" />
-            <SkillComponent image="javascript" nivel="50" />
+            <Skill image="docker" nivel="50" />
+            <Skill image="javascript" nivel="50" />
+            <Skill image="javascript" nivel="50" />
+            <Skill image="javascript" nivel="50" />
           </div>
         </div>
       </section>
