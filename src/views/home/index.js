@@ -40,10 +40,12 @@ function Home() {
         <div className='about-container'>
           <h1 className="title">Skills</h1>
           <div className="skill-cards">
-            <Skill image="docker" nivel="50" />
-            <Skill image="javascript" nivel="50" />
-            <Skill image="javascript" nivel="50" />
-            <Skill image="javascript" nivel="50" />
+            <Skill name={"Tim Berners-Lee"} tech={"HyperText Markup Language"} image="html" level="90" />
+            <Skill name={"Extreme GoHorse"} tech={"Cascading Style Sheets"} image="css" level="87" />
+            <Skill name={"Extreme GoHorse"} tech={"Javascript"} image="javascript" level="78" />
+            <Skill name={"Extreme GoHorse"} tech={"Qualquer coisa menos Java"} image="docker" level="65" />
+            <Skill name={"Extreme GoHorse"} tech={"Qualquer coisa menos Java"} image="nodejs" level="75" />
+            <Skill name={"Facebook Inc."} tech={"Qualquer coisa menos Java"} image="reactjs" level="70" />
           </div>
         </div>
       </section>
