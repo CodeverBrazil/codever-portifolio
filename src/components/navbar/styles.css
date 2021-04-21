@@ -22,19 +22,3 @@
   width: 2vw;
   background-color: var(--color-primary);
 }
-
-/* .list-menu-item a::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 0;
-  height: 4px;
-  background-color: var(--success);
-  transition: 0.5s;
-}
-
-.list-menu-item a:hover::after,
-.list-menu-item a:active::after {
-  width: 100%;
-} */
