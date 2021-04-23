@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const SkillContainer = styled.div`
+const SkillContainer = styled.article`
     background-color: var(--light);
     padding: 1rem;
     border-radius: 12px;
@@ -18,7 +18,7 @@ const SkillInfo = styled.div`
     color: var(--dark);
 `
 
-const SkillImage = styled.div`
+const SkillImage = styled.figure`
     width: 100%;
 `
 

@@ -9,7 +9,7 @@ function Skill(props) {
   return (
     <SkillContainer>
       <SkillImage>
-        <Image src={"img/" + props.image + ".png"} />
+        <Image src={`img/${props.image}.png`} />
       </SkillImage>
       <SkillInfo>
         <Span>{props.name}</Span>
