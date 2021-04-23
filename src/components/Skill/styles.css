@@ -1,9 +1,0 @@
-.skill-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skill-img {
-  width: 300px;
-}

@@ -1,14 +1,24 @@
 import React from 'react'
 
-import './styles.css'
+import { SkillContainer, SkillInfo, SkillImage, Image, Span, Titulo } from './styles.js'
+
+import SkillBar from "../SkillBar/index"
 
 function Skill(props) {
 
   return (
-    <div className="skill-container">
-      <img className="skill-img" src={"img/" + props.image + ".png"} alt="teste"/>
-      <h2 className="skill-level">Nível: {props.nivel}%</h2>
-    </div>
+    <SkillContainer>
+      <SkillImage>
+        <Image src={`img/${props.image}.png`} />
+      </SkillImage>
+      <SkillInfo>
+        <Span>{props.name}</Span>
+        <Titulo>{props.tech}</Titulo>
+        <Span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu est, volutpat sit amet
+          pellentesque et, facilisis sit amet odio.</Span>
+      </SkillInfo>
+      <SkillBar level={props.level}/>
+    </SkillContainer>
   )
 }
 
