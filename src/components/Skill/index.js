@@ -17,7 +17,7 @@ function Skill(props) {
         <Span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu est, volutpat sit amet
           pellentesque et, facilisis sit amet odio.</Span>
       </SkillInfo>
-      <SkillBar />
+      <SkillBar level={props.level}/>
     </SkillContainer>
   )
 }
