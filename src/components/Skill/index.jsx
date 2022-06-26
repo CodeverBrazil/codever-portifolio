@@ -1,11 +1,10 @@
 import React from 'react'
 
-import { SkillContainer, SkillInfo, SkillImage, Image, Span, Titulo } from './styles.js'
+import { SkillContainer, SkillInfo, SkillImage, Image, Span, Titulo } from './styles.jsx'
 
-import SkillBar from "../SkillBar/index"
+import SkillBar from "../SkillBar/index.jsx"
 
-function Skill(props) {
-
+const Skill = (props) => {
   return (
     <SkillContainer>
       <SkillImage>
@@ -17,7 +16,7 @@ function Skill(props) {
         <Span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu est, volutpat sit amet
           pellentesque et, facilisis sit amet odio.</Span>
       </SkillInfo>
-      <SkillBar level={props.level}/>
+      <SkillBar level={props.level} />
     </SkillContainer>
   )
 }

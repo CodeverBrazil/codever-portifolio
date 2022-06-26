@@ -1,9 +1,8 @@
 import React from 'react'
 
-import { SkillBarBar, SkillBarLevel, SkillBarHideContent } from "./styles.js"
+import { SkillBarBar, SkillBarLevel, SkillBarHideContent } from "./styles.jsx"
 
-function SkillBar(props) {
-
+const SkillBar = (props) => {
   return (
     <SkillBarBar>
       <SkillBarLevel level={props.level}>

@@ -1,14 +1,13 @@
-import React from "react"
+import React, { Fragment } from "react"
 
-import Skill from '../../components/Skill'
+import Skill from '../../components/Skill/index.jsx'
 
 import "../../styles/global.css"
 import './styles.css'
 
-
-function Home() {
+const Home = () => {
   return (
-    <>
+    <Fragment>
       <section className="container">
         <div className="image-container">
           <img src="img/illustration.png" alt="Imagem da página home" />
@@ -29,11 +28,11 @@ function Home() {
         <div className='about-container'>
           <h1 className="title">Sobre</h1>
           <p className='content'>Somos uma empresa de desemvolvimento
-          de sites e sistemas recém criada. Essa será sua maior oportunidade
-          de explorar estes jovens programadores que se protituem
-          todos os dias, utilizando toda sua energia por salários baixíssimos.
-          Não perca essa oportunidade, seja um membro desse grupo que
-                    só tem a crescer!</p>
+            de sites e sistemas recém criada. Essa será sua maior oportunidade
+            de explorar estes jovens programadores que se protituem
+            todos os dias, utilizando toda sua energia por salários baixíssimos.
+            Não perca essa oportunidade, seja um membro desse grupo que
+            só tem a crescer!</p>
         </div>
       </section>
       <section className='skills'>
@@ -49,7 +48,7 @@ function Home() {
           </div>
         </div>
       </section>
-    </>
+    </Fragment>
   )
 }
 

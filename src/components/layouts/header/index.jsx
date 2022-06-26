@@ -5,7 +5,7 @@ import Navbar from "../../navbar"
 import '../../../styles/global.css'
 import './styles.css'
 
-function Header(props) {
+const Header = (props) => {
   const items = ["HOME", "SOBRE", "SKILLS", "PORTIFOLIO", "CONTATO"]
 
   return (
