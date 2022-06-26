@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes as Switch, Route } from 'react-router-dom'
 
-import Home from './pages/home.jsx'
+import Home from './components/pages/home.jsx'
 
 const Routes = () => {
     return (
