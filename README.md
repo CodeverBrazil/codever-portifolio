@@ -1,6 +1,8 @@
-https://img.shields.io/github/repo-size/robertgoncalvesbatista/codever-portifolio?style=for-the-badge
-https://img.shields.io/github/languages/count/robertgoncalvesbatista/codever-portifolio?style=for-the-badge
-https://img.shields.io/github/package-json/v/robertgoncalvesbatista/codever-portifolio
+<p>
+    <a href="#"><img alt="Size" src="https://img.shields.io/github/repo-size/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
+    <a href="#"><img alt="Languages" src="https://img.shields.io/github/languages/count/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
+    <a href="#"><img alt="Version" src="https://img.shields.io/github/package-json/v/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
+</p>
 
 # Codever Portifolio
 Authors: Everton e Robert
