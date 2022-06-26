@@ -5,8 +5,8 @@
 </p>
 
 # Codever Portifolio
-Authors: Everton e Robert
-Description: Portifólio de projetos e tecnologias da dupla
+<p>Authors: Everton e Robert</p>
+<p>Description: Portifólio de projetos e tecnologias da dupla</p>
 
 # Tecnologias do Portifólio
 <p>
