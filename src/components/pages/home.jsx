@@ -27,7 +27,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="bg-gray-50 dark:bg-gray-900 dark:bg-gray-800">
+      {/* Sobre */}
+      <div class="bg-gray-50 dark:bg-gray-900 dark:bg-gray-800" id="about">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl font-bold text-gray-900 dark:text-white">Powering innovation at <span class="font-extrabold">200,000+</span> companies worldwide</h2>
@@ -42,7 +43,7 @@ const Home = () => {
       </div>
 
       {/* Habilidades */}
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center py-2 gap-x-8 mx-8 lg:mx-24 my-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center py-2 gap-x-8 mx-8 lg:mx-24 my-8" id="skills">
         {/* Card HTML */}
         <div class="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
           <div class="flex justify-center md:justify-end -mt-16">
