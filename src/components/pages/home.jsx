@@ -3,6 +3,8 @@ import React, { Fragment } from "react"
 import Header from "../partials/header"
 import Footer from "../partials/footer"
 
+import { Card } from '../Card'
+
 const Home = () => {
   return (
     <Fragment>
@@ -45,100 +47,62 @@ const Home = () => {
       {/* Habilidades */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center py-2 gap-x-8 mx-8 lg:mx-24 my-8" id="skills">
         {/* Card HTML */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#ff6d00", padding: "0.5rem" }} src="img/html5.png" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">HTML</h2>
-            <p className="mt-2 text-gray-600">HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Tim Berners-Lee</a>
-          </div>
-        </div>
+        <Card
+          title={'HTML'}
+          description={'HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.'}
+          imageUrl={'img/html5.png'}
+          altImage={'Image HTML'}
+          anchor={'Tim Berners-Lee'}
+          anchorLink={'#'} />
 
         {/* Card CSS */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#039be5", padding: "0.5rem" }} src="img/css3.png" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">CSS</h2>
-            <p className="mt-2 text-gray-600">CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML).</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Extreme GoHorse</a>
-          </div>
-        </div>
+        <Card
+          title={'CSS'}
+          description={'CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML).'}
+          imageUrl={'img/css3.png'}
+          altImage={'Image CSS3'}
+          anchor={'Extreme GoHorse'}
+          anchorLink={'#'} />
 
         {/* Card Javascript */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#fade34", padding: "0.5rem" }} src="img/ecmascript.jpg" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">Javascript</h2>
-            <p className="mt-2 text-gray-600">JavaScript é a linguagem de programação usada para adicionar interatividade ao seu site (por exemplo: jogos, respostas quando botões são pressionados ou dados são inseridos em formulários, estilo dinâmico, animações).</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Extreme GoHorse</a>
-          </div>
-        </div>
+        <Card
+          title={'Javascript'}
+          description={'JavaScript é a linguagem de programação usada para adicionar interatividade ao seu site (por exemplo: jogos, respostas quando botões são pressionados ou dados são inseridos em formulários, estilo dinâmico, animações).'}
+          imageUrl={'img/ecmascript.jpg'}
+          altImage={'Image Javascript'}
+          anchor={'Extreme GoHorse'}
+          anchorLink={'#'}
+          style={{ background: "#fade34", padding: "0.5rem" }} />
 
         {/* Card PHP */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#4c6394", padding: "0.5rem" }} src="img/php.png" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">PHP</h2>
-            <p className="mt-2 text-gray-600">PHP (um inicialismo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script do lado do servidor de código aberto que pode ser utilizada junto com HTML para construir aplicações web e sites dinâmicos.</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Extreme GoHorse</a>
-          </div>
-        </div>
+        <Card
+          title={'PHP'}
+          description={'PHP (um inicialismo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script do lado do servidor de código aberto que pode ser utilizada junto com HTML para construir aplicações web e sites dinâmicos.'}
+          imageUrl={'img/php.png'}
+          altImage={'Image PHP'}
+          anchor={'Extreme GoHorse'}
+          anchorLink={'#'}
+          style={{ background: "#4c6394", padding: "0.5rem" }} />
 
         {/* Card NodeJS */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#c8d3d9", padding: "0.5rem" }} src="img/nodejs.png" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">NodeJS</h2>
-            <p className="mt-2 text-gray-600">Como um tempo de execução JavaScript assíncrono orientado por eventos, o Node.js foi projetado para criar aplicativos de rede escaláveis.</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Extreme GoHorse</a>
-          </div>
-        </div>
+        <Card
+          title={'NodeJS'}
+          description={'Como um tempo de execução JavaScript assíncrono orientado por eventos, o Node.js foi projetado para criar aplicativos de rede escaláveis.'}
+          imageUrl={'img/nodejs.png'}
+          altImage={'Image PHP'}
+          anchor={'Extreme GoHorse'}
+          anchorLink={'#'}
+          style={{ background: "#c8d3d9", padding: "0.5rem" }} />
 
         {/* Card ReactJS */}
-        <div className="py-4 px-8 bg-slate-100 shadow-lg rounded-lg my-10">
-          <div className="flex justify-center md:justify-end -mt-16">
-            <img className="w-20 h-20 object-cover rounded-full" style={{ background: "#212121", padding: "0.5rem" }} src="img/reactjs.png" alt="Image CSS3" />
-          </div>
-
-          <div>
-            <h2 className="text-gray-800 text-3xl font-semibold">ReactJS</h2>
-            <p className="mt-2 text-gray-600"> React é uma biblioteca para construção de interfaces de usuário. React não é um framework – nem mesmo é exclusivo para web. É utilizado com outras bibliotecas para renderização em certos ambientes.</p>
-          </div>
-
-          <div className="flex justify-end mt-4">
-            <a href="#" className="text-xl font-medium text-indigo-500">Facebook Inc.</a>
-          </div>
-        </div>
+        <Card
+          title={'ReactJS'}
+          description={'React é uma biblioteca para construção de interfaces de usuário. React não é um framework – nem mesmo é exclusivo para web. É utilizado com outras bibliotecas para renderização em certos ambientes.'}
+          imageUrl={'img/reactjs.png'}
+          altImage={'Image ReactJS'}
+          anchor={'Extreme GoHorse'}
+          anchorLink={'#'}
+          style={{ background: "#212121", padding: "0.5rem" }} />
       </div>
 
       {/* Rodapé */}
