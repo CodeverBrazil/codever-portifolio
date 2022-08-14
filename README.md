@@ -1,7 +1,7 @@
 <p>
-    <a href="#"><img alt="Size" src="https://img.shields.io/github/repo-size/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
-    <a href="#"><img alt="Languages" src="https://img.shields.io/github/languages/count/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
-    <a href="#"><img alt="Version" src="https://img.shields.io/github/package-json/v/robertgoncalvesbatista/codever-portifolio?style=for-the-badge"></a>
+    <a href="#"><img alt="Size" src="https://img.shields.io/github/repo-size/CodeverGroup/codever-portifolio?style=for-the-badge"></a>
+    <a href="#"><img alt="Languages" src="https://img.shields.io/github/languages/count/CodeverGroup/codever-portifolio?style=for-the-badge"></a>
+    <a href="#"><img alt="Version" src="https://img.shields.io/github/package-json/v/CodeverGroup/codever-portifolio?style=for-the-badge"></a>
 </p>
 
 # Codever Portifolio
@@ -16,6 +16,6 @@
     <a href="#"><img alt="Version" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"></a>
     <a href="#"><img alt="Version" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></a>
     <a href="#"><img alt="Version" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
-    <a href="#"><img alt="Version" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"></a>
-    <a href="#"><img alt="Version" src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"></a>
+    <a href="https://vercel.com/"><img alt="Version" src="https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+    <a href="https://git-scm.com/"><img alt="Version" src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"></a>
 </p>
